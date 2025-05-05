@@ -28,6 +28,7 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'com.wisecrab.wc_flutter_share'
     }
+
     compileSdkVersion 33
 
     sourceSets {
