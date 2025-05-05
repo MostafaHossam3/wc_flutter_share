@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 35
+    namespace 'com.wisecrab.wc_flutter_share'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
